@@ -1,0 +1,102 @@
+.market-first {
+    text-align: center;
+}
+
+.market-first p {
+    margin-bottom: 50px;
+}
+
+.button {
+    color: #037fad;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    border:1px solid #037fad;
+    border-radius: 7px;
+}
+
+.button:hover {
+    border: 2px solid #00baff;
+}
+
+.market-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.items-box {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #0a4d7866; */
+    text-align: center;
+    min-width: 280px;
+    max-width: 330px;
+
+    position: relative;
+}
+
+.items-box img {
+    width: 250px;
+    margin: auto;
+}
+
+.items-box::before{
+    background: #ff6c2d;
+    /* border-radius: 100%; */
+    -webkit-filter: blur(40px);
+    /* filter: blur(40px); */
+    height: 100%;
+    left: 0;
+    opacity: .4;
+    top: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+.items-box .button {
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+    right: 50px;
+    background-color: #1f2438;
+    font-size: 20px;
+    color: #fbb93d;
+}
+
+.items-box {
+    
+    background-image: url(./images/valorantframe3.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
+
+.items-box h5 {
+    font-size: 1.5em;
+    color: aqua;
+}
+
+.marketlogo {
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.button span {
+    font-size: 1.4em;
+}
+
+.market-first .button {
+    padding: 20px;
+}
+
+.market-scnd {
+    display: flex;
+    justify-content: center;
+}
