@@ -1,3 +1,19 @@
+*, :after, :before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: darkgrey;
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -204,8 +220,9 @@ a {
 
 .box-info {
     padding: 20px;
-    background-color: #171d3657;
+    background-color: #171d36;
     margin-left: 20px;
+    overflow: auto;
 }
 
 .box-info h3 {
@@ -362,7 +379,8 @@ hr {
 }
 button {
     margin-top: 60px;
-    padding: 20px;
+    padding: 10px;
+    font-weight: bolder;
     color: white;
     background-color: #171d3657;
     font-size: 18px;
@@ -378,11 +396,19 @@ button:hover {
 }
 
 .stake {
-    background-color: green;
+    background-color: #195219;
+}
+
+.stake:hover {
+    background-color: #0c250c;
 }
 
 .clear {
-    background-color: red;
+    background-color: #760707;
+}
+
+.clear:hover {
+    background-color: #440505;
 }
 
 /* .stake: hover{
@@ -428,8 +454,11 @@ button:hover {
   }
 
   .middle-content {
-    background-image: url(images/stars-background.png);
+    background-image: url(images/valorantstylestakingbg.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 200px;
+    padding-bottom: 20px;
   }
 
 
@@ -459,4 +488,5 @@ button:hover {
 
 .box-info {
     position: relative;
+    overflow: hidden;
 }

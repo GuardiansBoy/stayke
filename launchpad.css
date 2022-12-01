@@ -1,0 +1,12 @@
+.middle-content {
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middle-content img {
+    width: 60%;
+}

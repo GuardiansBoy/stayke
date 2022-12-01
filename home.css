@@ -1,0 +1,123 @@
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: darkgrey;
+}
+
+.first-news-container {
+    margin: auto;
+    border: 1px solid #22466429;
+    border-radius: 10px;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin-top: 20px;
+    min-width: 400px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.middle-content {
+    background-image: none !important;
+    padding-left: 0;
+}
+
+
+.main-image img{
+    height: auto;
+    width: 300px;
+    BORDER-RADIUS: 10PX;
+}
+
+.first-news-data p {
+    color: #bbbbbb;
+}
+
+.first-news-data h1 {
+    color: white;
+    text-align: left;
+}
+
+.genki-season {
+    background-color: rgb(21 21 42);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.genki-season h1 {
+    font-size: 18px;
+}
+
+.jpg-store {
+    width: auto;
+    background-color: #3564dc;
+    width: 100%;
+    padding: 10px;
+    margin-inline: 0;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.jpg-store:hover {
+    background-color: #23418f;
+}
+
+.first-news-data {
+    margin-right: 20px;
+}
+
+.nft-collections-container {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.nft-collections-container h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nft-collections {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collection {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #9cc0ff29;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.collection img {
+    
+    width: 100%;
+    
+}
+
+.collection .genki-season {
+    width: -webkit-fill-available;
+    margin-top: 20px;
+}
+
+.collection h3 {
+    margin-top: 10px;
+}
